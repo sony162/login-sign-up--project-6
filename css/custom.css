@@ -1,0 +1,183 @@
+ 
+ body{
+  margin: 0;
+  padding: 0;
+  font-family: arial, sans-serif;
+  color:#D8D8D8;
+ }
+
+
+ section  {
+  
+  background: url(../images/web-background.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  
+ }
+
+
+  ul{
+     margin: 0;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    background: hsla(0, 0%, 80%, 0.44);
+ }
+  ul li{
+  display: inline-block;
+  list-style: none;
+  
+ }
+
+  ul li a{
+  text-transform: uppercase;
+  text-decoration:none;
+  padding:10px 15px;
+  color: #fff;
+  display: block;
+  position: relative;
+  transition: all 0.4s ease
+
+}
+ ul li a:after{
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 18px;
+  width: 2px;
+  background: #fff;
+  transition: all 0.4s ease
+
+}
+
+ ul li:last-child a:after{
+    background: transparent;
+}
+
+ ul li a:hover{
+    background: #0B4C5F;
+    color: #D8D8D8;
+}
+  ul li a:hover:after{
+   width: 0;
+}
+
+  .login{
+  position: absolute;
+  background: #0B4C5F;
+  width: 314px; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  position: fixed;
+  opacity: 0.6;
+}
+  
+ 
+
+ .login h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+}
+ 
+
+ .login h2 span{
+    
+    display: inline-block;
+ }
+
+ .login h2 img{
+    width: 55px;
+    height: 30px;  
+}
+
+ .login input{
+
+  width: 100%;
+  padding: 6px 6px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #555;
+  background-image: none;
+  margin-bottom: 2px;
+  border-radius: 5px;
+  }
+.login a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    text-align: center;
+}
+.checkbox, .radio{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: 5px;
+}
+.checkbox span{
+      position: absolute;
+     left: 20px;
+}
+  
+  
+  .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+   position: absolute;
+    margin-top: 3px;
+    margin-left: -158px;
+
+}
+.checkbox a{
+    float: right;
+    overflow: hidden;
+    color: #D8D8D8;
+
+  }
+  a:focus, a:hover {
+    color: white;
+    
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+  .btn{
+    width:100%;
+    margin-top: 20px;
+}
+.btn a{
+       position: absolute;
+       text-align: center;
+       text-transform: uppercase;
+  padding: 7px;
+  background: #0B5282;
+  color: #fff;
+  font-size: 23px;
+  width: 84%;
+}
+
+.signup{
+    width: 100%;
+    text-align: center;
+}
+.signup p{
+       
+      display: inline-block;
+      margin-top: 56px;
+      font-size: 12px;
+}
+.signup a{
+    list-style: none; 
+    color:white;
+}
+
+.signup a:hover {
+  color: gray;
+}
